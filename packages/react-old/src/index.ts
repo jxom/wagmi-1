@@ -10,6 +10,30 @@ export type {
 } from './context'
 
 export {
+  useAccount,
+  useBalance,
+  useBlockNumber,
+  useConnect,
+  useContract,
+  useContractEvent,
+  useContractRead,
+  useContractWrite,
+  useEnsAvatar,
+  useEnsLookup,
+  useEnsResolveName,
+  useEnsResolver,
+  useFeeData,
+  useNetwork,
+  useProvider,
+  useSigner,
+  useSignMessage,
+  useToken,
+  useTransaction,
+  useWaitForTransaction,
+  useWebSocketProvider,
+} from './hooks'
+
+export {
   Connector,
   InjectedConnector,
   chain,

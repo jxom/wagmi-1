@@ -1,0 +1,4 @@
+{
+  "main": "dist/wagmi-react-old-connectors-injected.cjs.js",
+  "module": "dist/wagmi-react-old-connectors-injected.esm.js"
+}

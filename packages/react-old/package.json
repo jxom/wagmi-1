@@ -1,5 +1,5 @@
 {
-  "name": "wagmi",
+  "name": "@wagmi/react-old",
   "description": "React Hooks library for Ethereum",
   "license": "MIT",
   "version": "0.2.17",
@@ -7,8 +7,8 @@
   "repository": "tmm/wagmi",
   "homepage": "https://wagmi-xyz.vercel.app",
   "sideEffects": false,
-  "main": "dist/wagmi.cjs.js",
-  "module": "dist/wagmi.esm.js",
+  "main": "dist/wagmi-react-old.cjs.js",
+  "module": "dist/wagmi-react-old.esm.js",
   "exports": {
     "./package.json": "./package.json",
     ".": {
@@ -48,8 +48,7 @@
     "@coinbase/wallet-sdk": "^3.0.1",
     "@ethersproject/providers": "^5.5.1",
     "@wagmi/core": "0.1.13",
-    "@walletconnect/ethereum-provider": "1.7.1",
-    "react-query": "^3.34.16"
+    "@walletconnect/ethereum-provider": "1.7.1"
   },
   "devDependencies": {
     "@testing-library/react-hooks": "^7.0.2",

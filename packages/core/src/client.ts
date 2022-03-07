@@ -26,7 +26,7 @@ export type WagmiClientConfig = {
    * Connectors used for linking accounts
    * @default [new InjectedConnector()]
    */
-  connectors: Connector[] | ((config: { chainId?: number }) => Connector[])
+  connectors?: Connector[] | ((config: { chainId?: number }) => Connector[])
   /**
    * Interface for connecting to network
    * @default getDefaultProvider()
@@ -90,6 +90,7 @@ export class WagmiClient {
     webSocketProvider,
   }: WagmiClientConfig = defaultConfig) {
     this.config = {
+      autoConnect,
       connectors,
       provider,
       webSocketProvider,

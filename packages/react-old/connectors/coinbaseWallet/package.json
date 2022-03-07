@@ -1,0 +1,4 @@
+{
+  "main": "dist/wagmi-react-old-connectors-coinbaseWallet.cjs.js",
+  "module": "dist/wagmi-react-old-connectors-coinbaseWallet.esm.js"
+}
